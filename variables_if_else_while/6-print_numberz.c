@@ -8,10 +8,10 @@ int main(void)
 {
 int number;
 int ten = 10;
-for (number = 0; number < ten; number++)
+for (number = 0; number <= ten; number++)
 {
-printf("%d", number);
+putchar(number);
 }
-printf("\n");
+putchar('\n');
 return (0);
 }
