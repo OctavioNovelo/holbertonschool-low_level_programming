@@ -1,2 +1,3 @@
 #!/bin/bash
-gcc -c Second_C.c
+export $CFILE=Second_C.c
+gcc -c Second_C.c -o Second_C.o
