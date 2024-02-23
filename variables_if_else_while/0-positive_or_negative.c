@@ -2,10 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- *
  *main - Entry point of the program
  *
- * Return - Always 0
+ *Return - Always 0
  *
  */
 
