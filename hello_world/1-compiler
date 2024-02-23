@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c Second_C.c
+export CFILE=Second_C.c
