@@ -6,12 +6,13 @@
  */
 int main(void)
 {
-char letra;
-
-for (letra = 'a'; letra <= 'z'; letra++)
+int number;
+int ten = 10;
+for (number = '0'; number <= ten; number++)
 {
-putchar(letra);
+putchar(number);
 }
+putchar(ten);
 putchar('\n');
 return (0);
 }
