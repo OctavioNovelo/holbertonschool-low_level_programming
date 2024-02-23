@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <betty-doc.pl>
 
 int main(){
   return 0;
