@@ -1,15 +1,21 @@
 #include "main.h"
 
+/**
+ * main - Entry point of the program
+ *
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
-  char c[] = "_putchar";
+    _putchar('_');
+    _putchar('p');
+    _putchar('u');
+    _putchar('t');
+    _putchar('c');
+    _putchar('h');
+    _putchar('a');
+    _putchar('r');
+    _putchar('\n');
 
-  size_t a;
-  
-  for(a = 0; a < sizeof(c); a++)
-    {
-  _putchar(c[a]);
-    }
-  _putchar('\n');
-  return (0);
+    return (0);
 }
