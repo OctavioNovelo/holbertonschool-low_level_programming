@@ -2,6 +2,7 @@
 /**
  * main - the body of the code
  *
+ * Return: Always 1 (error code)
  */
 int main(void)
 {
