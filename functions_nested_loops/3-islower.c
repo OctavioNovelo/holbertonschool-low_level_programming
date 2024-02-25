@@ -17,5 +17,4 @@ if (c >= 'A' && c <= 'Z')
 _putchar('0');
 }
 _putchar('\n');
-return (0);
 }
