@@ -3,6 +3,8 @@
  * main - Entry point of the program
  *
  * print_alphabet - print the alphabet in lowercase
+ *
+ * Return - always 0 (succes)
  */
 void print_alphabet(void)
 {
