@@ -10,6 +10,7 @@ char letter = 'a';
 int i;
 for (i = 0; i < 10; i++)
 {
+letter = 'a';
 while (letter < 'z')
 {
 _putchar(letter);
