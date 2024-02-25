@@ -2,7 +2,7 @@
 #include <limits.h>
 /**
  * print_last_digit - prints the last digit of a number
- * 
+ *
  * @n: the number to find the last digit
  *
  * Return: the value of the last digit
@@ -19,10 +19,10 @@ else
 {
 if (n < 0)
 {
-n = -n; 
+n = -n;
 }
 last_digit = n % 10;
 }
 _putchar('0' + last_digit);
-return last_digit;
+return (last_digit);
 }
