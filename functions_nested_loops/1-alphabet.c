@@ -2,7 +2,7 @@
 /**
  * main - Entry point of the program
  *
- * print_alphabet - print the alphabet in lowercase
+ * 1-alphabet.c - print the alphabet in lowercase
  *
  * Return - always 0 (succes)
  */
