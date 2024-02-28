@@ -15,14 +15,15 @@ printf("1");
 int main()
 {
 char c;
-c = 'A';
- for (int i = 0; i <= 90; i++)
+ int i;
+ c = 'A';
+ for (i = 0; i <= 90; i++)
    {
 printf("%c: %d\n", c, _isupper(c));
  c++;
    }
  c = 'a';
- for (int i = 0; i < 97; i++)
+ for (i = 0; i < 97; i++)
    {
 printf("%c: %d\n", c, _isupper(c));
  c++;
