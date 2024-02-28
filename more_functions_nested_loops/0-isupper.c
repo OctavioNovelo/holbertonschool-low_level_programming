@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 int _isupper(int c)
 {
   if (c >= 'a' && c <= 'z')
@@ -10,6 +10,6 @@ int _isupper(int c)
     {
       printf("1");
     }
-  _putchar('\n');
+  printf('\n');
   return (0);
 }
