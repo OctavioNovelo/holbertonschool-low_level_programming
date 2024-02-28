@@ -2,7 +2,6 @@
 #include <stdio.h>
 int _isupper(int c)
 {
-printf(%d
 if (c >= 'a' && c <= 'z')
 {
 printf("1");
