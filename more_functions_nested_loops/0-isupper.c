@@ -10,6 +10,6 @@ int _isupper(int c)
     {
       printf("1");
     }
-  printf('\n');
+  printf("/n");
   return (0);
 }
