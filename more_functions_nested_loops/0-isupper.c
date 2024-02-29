@@ -2,7 +2,6 @@
 #include <stdio.h>
 int _isupper(int c)
 {
-char a;
 int i;
 int up = 1;
 int low = 0;
