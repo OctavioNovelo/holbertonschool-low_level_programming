@@ -4,7 +4,6 @@ int _isupper(int c)
 {
 int i;
 int up = 1;
-int low = 0;
 c = 'A';
 for (i = 65; i <= 90; i++)
 {
