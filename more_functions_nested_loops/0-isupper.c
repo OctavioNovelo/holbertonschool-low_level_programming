@@ -6,13 +6,13 @@ char a;
 int i;
 int up = 1;
 int low = 0;
-a = 'A';
+a = 65;
 for (i = 0; i <= 90; i++)
 {
 printf("%c: %d\n", c, up);
 a++;
 }
-a = 'a';
+a = 97;
 for (i = 0; i < 97; i++)
 {
 printf("%c: %d\n", c, low);
