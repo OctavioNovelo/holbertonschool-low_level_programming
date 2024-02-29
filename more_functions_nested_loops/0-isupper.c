@@ -8,14 +8,14 @@ int up = 1;
 int low = 0;
 c = 'A';
 a = c;
-for (i = 0; i <= 90; i++)
+for (i = 65; i <= 90; i++)
 {
 printf("%c: %d\n", a, up);
 a++;
 }
 c = 'a';
 a = c;
-for (i = 0; i < 97; i++)
+for (i = 97; i < 122; i++)
 {
 printf("%c: %d\n", a, low);
 a++;
