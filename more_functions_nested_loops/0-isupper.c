@@ -11,11 +11,5 @@ for (i = 65; i <= 90; i++)
 printf("%c: %d\n", c, up);
 c++;
 }
-c = 'a';
-for (i = 97; i < 122; i++)
-{
-printf("%c: %d\n", c, low);
-c++;
-}
 return (0);
 }
