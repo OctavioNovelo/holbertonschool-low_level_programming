@@ -7,18 +7,16 @@ int i;
 int up = 1;
 int low = 0;
 c = 'A';
-a = c;
 for (i = 65; i <= 90; i++)
 {
-printf("%c: %d\n", a, up);
-a++;
+printf("%c: %d\n", c, up);
+c++;
 }
 c = 'a';
-a = c;
 for (i = 97; i < 122; i++)
 {
-printf("%c: %d\n", a, low);
-a++;
+printf("%c: %d\n", c, low);
+c++;
 }
 return (0);
 }
