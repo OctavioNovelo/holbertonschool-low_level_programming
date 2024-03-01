@@ -3,6 +3,7 @@
 /**
  * largest_prime_factor - finds the largest prime factor of a number
  * @n: the number to find the largest prime factor of
+ *
  * main - body of the code
  * Return: the largest prime factor of the number
  */
