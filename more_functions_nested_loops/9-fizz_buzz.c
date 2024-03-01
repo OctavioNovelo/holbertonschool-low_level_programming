@@ -5,32 +5,29 @@
  *
  *Return: Always 0
  */
-int main()
+int main(void)
 {
-int i = 1;
-while (i <= 100)
+int num;
+while (num++ < 100)
+
+if ((num % 3 == 0) && (num % 5 == 0))
+printf("FizzBuzz ");
+
+else if ((num % 3) == 0)
+printf("Fizz ");
+
+else if ((num % 5) == 0)
 {
-if ((i % 3 == 0) && (i % 5 == 0))
-{
-printf("FizzBuzz");
-printf(" ");
-}
-else if (i % 3 == 0)
-{
-printf("Fizz");
-printf(" ");
-}
-else if (i % 5 == 0)
-{
-printf("Buzz");
-printf(" ");
-}
+if (num != 100)
+printf("Buzz ");
+
 else
-{
-printf("%d", i);
-printf(" ");
+printf("Buzz");
 }
-i++;
-}
+
+else
+printf("%d ", num);
+
+printf("\n");
 return (0);
 }
