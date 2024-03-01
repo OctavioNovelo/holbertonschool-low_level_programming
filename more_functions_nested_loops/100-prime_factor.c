@@ -22,7 +22,7 @@ n /= i;
 }
 if (n > 2)
 {
-return n;
+return (n);
 }
 return (i);
 }
