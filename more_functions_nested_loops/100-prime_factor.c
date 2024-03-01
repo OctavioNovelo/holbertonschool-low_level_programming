@@ -2,9 +2,10 @@
 #include <math.h>
 /**
  * largest_prime_factor - finds the largest prime factor of a number
+ * main - body of the code
+ *
  * @n: the number to find the largest prime factor of
  *
- * main - body of the code
  * Return: the largest prime factor of the number
  */
 long largest_prime_factor(long n)
