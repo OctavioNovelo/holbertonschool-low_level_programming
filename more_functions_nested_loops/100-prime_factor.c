@@ -3,8 +3,6 @@
 /**
  * largest_prime_factor - finds the largest prime factor of a number
  *
- * int main - body of the code
- *
  * @n: the number to find the largest prime factor of
  *
  * Return: the largest prime factor of the number
@@ -29,6 +27,11 @@ return (n);
 }
 return (i);
 }
+/**
+ * main - entry point of the program
+ *
+ * Return: Always 0
+ */
 int main(void)
 {
 long number = 612852475143;
