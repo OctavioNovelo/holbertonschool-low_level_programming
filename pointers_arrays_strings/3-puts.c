@@ -1,5 +1,5 @@
 #include "main.h"
-0;10;1c/**
+/**
  *_puts - print a string
  *@str: pointer
  */
