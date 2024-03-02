@@ -29,7 +29,7 @@ if (result > (INT_MAX - (*s - '0')) / 10)
 {
 if (sign == 1)
 {
-return INT_MAX;
+return (INT_MAX);
 }
 else
 {
