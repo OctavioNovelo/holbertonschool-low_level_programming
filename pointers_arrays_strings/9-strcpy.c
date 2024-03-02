@@ -1,3 +1,4 @@
+#include <stddef.h>
 #include "main.h"
 /**
  * *_strcpy - copy the string for src tod dest
