@@ -9,10 +9,10 @@ int i;
 for (i = 0; str[i] != '\0' && str[i + 1] != '\0'; i += 2)
 {
 _putchar(str[i]);
-if (str[i + 1] != '\0')
+}
+if (str[i - 1] != '\0')
 {
 _putchar('.');
-}
 }
 _putchar('\n');
 }
