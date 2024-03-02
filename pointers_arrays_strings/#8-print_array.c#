@@ -13,7 +13,5 @@ int array[n];
 while (n >= 0)
 {
 printf("%d, ", *a);
-n--;
-*a = array[n];
-}
+n--;            }
 }
