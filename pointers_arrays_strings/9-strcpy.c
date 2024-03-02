@@ -10,6 +10,10 @@
 char *_strcpy(char *dest, char *src)
 {
 int i;
+if (dest == NULL || src == NULL)
+{
+return NULL;
+}
 while (src[i] != '\0')
 {
 dest[i] = src[i];
