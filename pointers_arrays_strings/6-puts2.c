@@ -14,6 +14,5 @@ if (str[i + 1] == '\0')
 break;
 }
 }
-}
 _putchar('\n');
 }
