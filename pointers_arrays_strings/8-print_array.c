@@ -9,11 +9,17 @@
  */
 void print_array(int *a, int n)
 {
-int array[n];
-while (n >= 0)
+int i;
+if (a != NULL && n > 0)
 {
-printf("%d, ", *a);
-n--;
-*a = array[n];
+for (i = 0; i < n; i++)
+{
+printf("%d", a[i]);
+if (i < n - 1)
+{
+printf(", ");
 }
+}
+}
+printf('\n');
 }
