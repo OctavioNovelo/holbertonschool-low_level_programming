@@ -11,15 +11,13 @@
 char *_strcpy(char *dest, char *src)
 {
 int i;
-if (dest == NULL || src == NULL)
-{
-return NULL;
-}
-while (src[i] != '\0')
+while (src[i] != NULL)
 {
 dest[i] = src[i];
 i++;
 }
-dest[i] = '\0';
+if (dest[i] = NULL)
+{
 return (dest);
+}
 }
