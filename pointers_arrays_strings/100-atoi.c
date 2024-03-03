@@ -1,5 +1,5 @@
 #include "main.h"
-#include <limits.h>
+
 /**
  * _atoi - Converts a string to an integer.
  * @s: The input string.
@@ -22,8 +22,10 @@ int _atoi(char *s)
     {
         digit = *s - '0';
 
-        if (result > (INT_MAX - digit) / 10)
+      if (result > (INT_MAX - digit) / 10)
+        {
             return (sign == 1) ? INT_MAX : INT_MIN;
+        }
 
         result = result * 10 + digit;
         s++;
