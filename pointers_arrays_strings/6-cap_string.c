@@ -24,6 +24,10 @@ char *cap_string(char *str)
             str[i] == '}')
         {
             i++;
+            while (str[i] == ' ' || str[i] == '\t' || str[i] == '\n')
+            {
+                i++;
+            }
             if (str[i] >= 'a' && str[i] <= 'z')
             {
                 str[i] = str[i] - ('a' - 'A');
