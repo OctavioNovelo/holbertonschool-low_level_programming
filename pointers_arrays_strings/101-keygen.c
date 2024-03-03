@@ -8,13 +8,13 @@
  */
 int main(void)
 {
-int i, length;
+  int i, length, j;
 char password[12];
 srand(time(NULL));
 for (i = 0; i < 10; i++)
 {
 length = rand() % 7 + 6;
-for (int j = 0; j < length; j++)
+for (j = 0; j < length; j++)
 {
 password[j] = rand() % 94 + 33;
 }
