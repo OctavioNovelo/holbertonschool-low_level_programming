@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
     if (argc != 2)
     {
         printf("Usage: %s password\n", argv[0]);
-        return 1;  // Return an error code
+        return 1; 
     }
 
     int i, length, j;
