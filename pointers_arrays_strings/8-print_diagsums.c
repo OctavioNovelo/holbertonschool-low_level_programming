@@ -1,4 +1,4 @@
-#inlcude "main.h"
+#include "main.h"
 /**
  *print_diagsums - Make the sum of the two diagonals of a matrix
  *
