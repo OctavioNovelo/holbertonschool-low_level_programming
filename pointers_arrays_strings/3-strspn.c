@@ -26,7 +26,7 @@ accept++;
 if (match == 0)
 break;
 s++;
-accept -= count;
+accept = accept - count;
 }
 return (count);
 }
