@@ -27,6 +27,8 @@ if (match == 0)
 break;
 s++;
 accept = accept - count;
+if (*accept == '\0')
+break;
 count = 0;
 }
 return (count);
