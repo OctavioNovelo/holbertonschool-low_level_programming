@@ -18,6 +18,6 @@ return (n);
 }
 else
 {
-return (find_sqrt(n, 2));
+return (_sqrt_recursion(n, 2));
 }
 }
