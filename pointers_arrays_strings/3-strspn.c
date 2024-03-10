@@ -10,11 +10,9 @@ unsigned int _strspn(char *s, char *accept)
 {
 unsigned int count = 0;
 int match;
-char *temp_accept;
 while (*s != '\0')
 {
 match = 0;
-*temp_accept = accept;
 while (*accept != '\0')
 {
 if (*s == *accept)
@@ -23,11 +21,15 @@ count++;
 match = 1;
 break;
 }
-temp_accept++;
+accept++;
 }
-if (!match)
+if (match == 0)
 break;
 s++;
+accept = accept - count;
+if (*accept == '\0')
+break;
+count = 0;
 }
 return (count);
 }
