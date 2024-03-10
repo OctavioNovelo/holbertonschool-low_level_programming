@@ -2,7 +2,7 @@
 /**
  *_strspn - Gets the length of a prefix substring.
  *@s: The string to search.
- *@accept: The substring containing accepted characters. 
+ *@accept: The substring containing accepted characters.
  *
  *Return: The number of bytes in the initial segment of s.
  */
