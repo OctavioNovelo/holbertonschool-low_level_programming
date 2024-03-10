@@ -9,11 +9,8 @@
  */
 int main(int argc, char *argv[])
 {
-    /**
-     * Print the number of arguments (excluding the program name)
-     * followed by a new line
-     */
-    printf("%d\n", argc - 1);
-
-    return 0;
+for (int i = 1; i < argc; i++) {
+printf("Argument %d: %s\n", i, argv[i]);
+}
+return (0);
 }
