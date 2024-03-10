@@ -14,6 +14,7 @@ int cents;
 int coins[] = {25, 10, 5, 2, 1};
 int num_coins;
 int min_coins;
+int i;
 if (argc != 2)
 {
 printf("Error\n");
@@ -27,7 +28,6 @@ return (0);
 }
 num_coins = sizeof(coins) / sizeof(coins[0]);
 min_coins = 0;
-int i;
 for (i = 0; i < num_coins; i++)
 {
 while (cents >= coins[i])
