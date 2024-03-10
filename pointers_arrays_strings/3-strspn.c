@@ -14,7 +14,7 @@ char *temp_accept;
 while (*s != '\0')
 {
 match = 0;
-char *temp_accept = accept;
+*temp_accept = accept;
 while (*accept != '\0')
 {
 if (*s == *accept)
