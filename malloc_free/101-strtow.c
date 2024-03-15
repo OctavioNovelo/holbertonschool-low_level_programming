@@ -12,10 +12,10 @@ void free_words(char **words);
  */
 char **strtow(char *str)
 {
-if (str == NULL || *str == '\0')
-return (NULL);
 int i, j, k = 0, words_count = count_words(str);
 char **words;
+if (str == NULL || *str == '\0')
+return (NULL);
 words = malloc((words_count + 1) * sizeof(char *));
 if (words == NULL)
 return (NULL);
