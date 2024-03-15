@@ -12,7 +12,7 @@ void free_words(char **words);
  */
 char **strtow(char *str)
 {
-int i, j, k = 0, words_count = count_words(str);
+int i, words_count = count_words(str);
 char **words;
 if (str == NULL || *str == '\0')
 return (NULL);
