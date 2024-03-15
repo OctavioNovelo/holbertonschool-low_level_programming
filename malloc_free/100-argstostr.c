@@ -21,7 +21,7 @@ total_length++;
 total_length++;
 }
 total_length++;
-concatenated_str = malloc(total_length * sizeof(char));
+concatenated_str = malloc(total_length *sizeof(char));
 if (concatenated_str == NULL)
 return (NULL);
 k = 0;
