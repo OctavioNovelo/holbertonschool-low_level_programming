@@ -1,6 +1,12 @@
 #include <stdlib.h>
 #include <string.h>
 #include "dog.h"
+/**
+ * _strdup - Duplicates a string
+ * @str: String to duplicate
+ *
+ * Return: Pointer to the newly allocated string, or NULL if failed
+ */
 char *_strdup(char *str)
 {
 char *dup;
