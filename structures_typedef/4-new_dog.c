@@ -1,6 +1,22 @@
 #include <stdlib.h>
 #include <string.h>
 #include "dog.h"
+char *_strdup(char *str)
+{
+char *dup;
+int len, i;
+if (str == NULL)
+return (NULL);
+len = 0;
+while (str[len])
+len++;
+dup = malloc(sizeof(char) * (len + 1));
+if (dup == NULL)
+return (NULL);
+for (i = 0; i <= len; i++)
+dup[i] = str[i];
+return (dup);
+}
 /**
  * new_dog - Creates a new dog
  * @name: Name of the dog
@@ -16,13 +32,13 @@ char *name_copy, *owner_copy;
 new_dog = malloc(sizeof(dog_t));
 if (new_dog == NULL)
 return (NULL);
-name_copy = strdup(name);
+name_copy = _strdup(name);
 if (name_copy == NULL)
 {
 free(new_dog);
 return (NULL);
 }
-owner_copy = strdup(owner);
+owner_copy = _strdup(owner);
 if (owner_copy == NULL)
 {
 free(name_copy);
