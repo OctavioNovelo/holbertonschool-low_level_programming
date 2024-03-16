@@ -8,5 +8,4 @@ dog.d;
 dog.name;
 dog.age;
 dog.owner;
-return (dog);
 }
