@@ -31,7 +31,7 @@ return (1);
  */
 int main(int argc, char *argv[])
 {
-int num1, num2, result;
+long num1, num2, result;
 if (argc != 3)
 print_error();
 if (!is_digit(argv[1]) || !is_digit(argv[2]))
