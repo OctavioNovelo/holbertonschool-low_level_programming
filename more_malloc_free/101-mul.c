@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <gmp.h>
 /**
  * print_error - Prints error message and exits with status 98
  */
@@ -32,15 +31,15 @@ return (1);
  */
 int main(int argc, char *argv[])
 {
-mpz_t num1, num2, result;
+int num1, num2, result;
 if (argc != 3)
 print_error();
-mpz_init_set_str(num1, argv[1], 10);
-mpz_init_set_str(num2, argv[2], 10);
-mpz_init(result);
-mpz_mul(result, num1, num2);
-gmp_printf("%Zd\n", result);
-mpz_clears(num1, num2, result, NULL);
+if (!is_digit(argv[1]) || !is_digit(argv[2]))
+print_error();
+num1 = atoi(argv[1]);
+num2 = atoi(argv[2]);
+result = num1 * num2;
+printf("%d\n", result);
 return (0);
 }
 
