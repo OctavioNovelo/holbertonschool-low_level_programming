@@ -12,8 +12,6 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
 void *new_ptr;
 unsigned int i;
-if (ptr == NULL)
-return (NULL);
 if (new_size == 0)
 {
 free(ptr);
