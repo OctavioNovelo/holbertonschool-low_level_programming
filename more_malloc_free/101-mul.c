@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <gmp.h>
 /**
  * print_error - Prints error message and exits with status 98
  */
