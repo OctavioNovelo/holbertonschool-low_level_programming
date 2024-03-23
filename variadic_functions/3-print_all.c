@@ -9,7 +9,8 @@ void print_all(const char * const format, ...)
 {
 va_list args;
 va_start(args, format);
-char *separator = "";
+char *separator;
+separator = "";
 unsigned int i = 0;
 while (format && format[i])
 {
