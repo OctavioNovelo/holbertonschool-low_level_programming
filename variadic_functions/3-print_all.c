@@ -7,11 +7,11 @@
  */
 void print_all(const char * const format, ...)
 {
+unsigned int i;
+char *separator = "";
 va_list args;
 va_start(args, format);
-char *separator;
-separator = "";
-unsigned int i = 0;
+i = 0;
 while (format && format[i])
 {
 switch (format[i])
